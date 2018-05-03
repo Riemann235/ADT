@@ -26,16 +26,25 @@ and (orientation : portrait) { .img-responsive {
 	} 
  }
 
-.content {
+/* .content {
   padding-top: 70px;
-}
+} */
 
-.navbar-default {
+/* .navbar-default {
   border: none;
   margin-bottom :none
 }
 .navbar {
 	margin-bottom: 20px;
+} */
+ 
+div.card-border {
+	border-color:rgb(0,132,201);
+}
+
+div.card-header-1 {
+	background-color:rgb(0,132,201);
+	color:white;
 }
 
 div.content.container {
@@ -48,7 +57,8 @@ div.calendar {
 	text-align:left;
 	width:auto;
 }
-  
+
+ 
 div.calendar-center	{text-align:center; width:auto; margin-left:auto; margin-right:auto;}
 
 .googleCalendar{
@@ -65,4 +75,13 @@ div.calendar-center	{text-align:center; width:auto; margin-left:auto; margin-rig
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.carousel {
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 5px;
+    background: none repeat scroll 0 0 black;
+    margin-top: 20px;
+    padding: 1%;
 }
